@@ -1,0 +1,12 @@
+<?php
+require "lib-appo.php";
+echo $_APPO->save ($_POST["date"], $_POST["slot"], $_POST["customer"])
+  ? "OK" : $_APPO->error;
+
+// UP TO YOU TO MODIFY & COMPLETE
+// USE AJAX TO CALL SAVE()
+// MODIFY SAVE() TO SEND EMAIL
+// SAVE TO GOOGLE FORM
+// PROCESS ONLINE PAYMENT
+// MUST PAY DEPOSIT TO CONFIRM
+// WHATEVER YOUR PROJECT REQUIRES...
